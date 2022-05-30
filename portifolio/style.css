@@ -138,7 +138,10 @@ a {
 
 /*currículo*/
 
-
+.core {
+  font-size: 14px;
+  margin-right:20px;
+}
 .resume .resume-title {
   font-weight: 700;
   margin-top: 20px;
@@ -147,7 +150,7 @@ a {
 }
 .resume .resume-text{
   font-size:1.5rem;
-  padding-top:80px;
+  padding:80px 0 80px 0;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
@@ -188,6 +191,7 @@ a {
 .resume .resume-item ul li {
   padding-bottom: 10px;
   font-size:12px;
+  text-align: justify;
 }
 .resume .resume-item:last-child {
   padding-bottom: 0;
